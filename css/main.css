@@ -123,16 +123,12 @@ body{
 	color: #0B132A;
 }
 
-.hero__container-title span {
+.hero__container-title span, .hero__container-info span {
 	font-weight: 500;
 }
 
 .hero__container-info{
 	color: #4F5665;
-}
-
-.hero__container-info span {
-	font-weight: 500;
 }
 
 .hero__container-btn{
@@ -152,9 +148,45 @@ body{
 	border: #F53838 solid 1px;
 }
 
+.features{
+	height: 100vh;
+	background: linear-gradient(180deg, #F6F5F5 -45.04%, #FFFFFF 19.67%, #F4F3F3 88.56%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.features__cont{
+	display: flex;
+	flex-direction: column;
+}
+
+.features__cont_title{
+	text-transform: capitalize;
+	font-weight: 500;
+	font-size: 35px;
+	color: #0B132A;
+	margin-bottom: 25px;
+}
+
+.features__cont_info{
+	color: #4F5665;
+	margin-bottom: 20px;
+}
 
 
 
+.features__cont_features-list ul{
+	display: flex;
+	flex-direction: column;
+	list-style-image: url(../images/list_bullet.svg);
+	list-style-position: inside;
+}
+
+.features__cont_features-list li{
+	margin: 15px 0 15px;
+}
 
 
 
