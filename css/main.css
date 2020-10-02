@@ -188,8 +188,135 @@ body{
 	margin: 15px 0 15px;
 }
 
+.customers{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.customers__text span{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
 
+.customers__text_title{
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 50px;
+	color: #0B132A;
+	margin-bottom: 10px;
+}
+
+.customers__text_info{
+	font-size: 16px;
+	line-height: 30px;
+	color: #4F5665;
+	margin-bottom: 60px;
+}
+
+.customers__reviews{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.customers__reviews_item{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	border: 2px solid #DDDDDD;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 15px 20px 15px;
+	width: 355px;
+	max-width: 355px;
+	height: 230px;
+}
+.customers__reviews_item:hover{
+	border: 2px solid #F53838;
+	transition: 0.5s;
+}
+
+.customers__reviews_item_person-data{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+	text-decoration: none;
+	padding-bottom: 15px;
+}
+.customers__reviews_item_person-data_img{
+	height: 50px;
+	width: 50px;
+}
+.customers__reviews_item_person-data:visited{
+	text-decoration: none;
+}
+
+.customers__reviews_item_person-data_info{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.customers__reviews_item_person_details{
+	margin-left: 15px;
+}
+
+.customers__reviews_item_person_name{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 30px;
+	color: #0B132A;
+}
+
+.customers__reviews_item_person_location{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	color: #4F5665;
+}
+
+.customers__reviews_item_person-data_rating{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.customers__reviews_item_person-data_rating_digit{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #0B132A;
+}
+
+.customers__reviews_item_person-data_rating_logo{
+	margin-bottom: 4px;
+	margin-left: 5px;
+}
+
+.customers__reviews_item_text{
+	display: flex;
+	flex-direction: column;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	align-items: flex-end;
+	justify-content: center;
+}
 
 
 
