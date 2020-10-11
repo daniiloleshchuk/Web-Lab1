@@ -1,5 +1,12 @@
 @media screen and (max-width: 767px){
 
+    .mobile-nav-icon{
+        display: block;
+    }
+    .navbar__container > .container{
+        justify-content: flex-start;
+    }
+
     .container{
         max-width: 350px;
         padding: 0px 30px;
@@ -11,7 +18,7 @@
     }
 
     header .container{
-        padding: 50px 30px;
+        padding: 30px 30px;
     }
 
     header .navbar__nav{
@@ -57,12 +64,18 @@
     .customers__reviews_item{
         width: 100%;
         margin: 0 0 50px 0;
+
+        height: auto;
+        padding: 30px 20px;
     }
 
     .customers__reviews_item:last-child{
         margin-bottom: 0;
     }
 
+    .customers__reviews_item_person-data{
+        text-align: left;
+    }
     .customers__subscribe-now-container{
         display: none;
     }

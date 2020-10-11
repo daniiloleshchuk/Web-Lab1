@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/burgermenu.css">
 
 	<link rel="stylesheet" type="text/css" href="css/adaptation/mobile.css">
 	<link rel="stylesheet" type="text/css" href="css/adaptation/tablet.css">
@@ -15,10 +16,34 @@
 	<title>LaslesVPN</title>
 </head>
 <body>
+	<div class="brugermenu" id="burgermenu">
+        <div class="close" onclick="closeNav()">
+            <img src="./images/close.svg" />
+        </div>
+        <ul class="flex-column">
+            <li class="nav-item active">
+                <a href="#home" class="nav-link">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#pricing" class="nav-link">
+                    Pricing
+                </a>
+            </li>
+        </ul>
+    </div>
 	<header class="header">
 		<div class="container background-header">
 			<div class="navbar__container">
 				<div class="container">
+					<div class="mobile-nav-icon" onclick="showNav()">
+					</div>
 					<a href="#" class="navbar__logo">
 						<img src="images/navbar-logo.svg" alt="">
 						<div class="navbar__logo-title">
@@ -216,7 +241,7 @@
 
 	<footer class="footer">
 		<div class="container footer__container">
-				<div class="footer__container_water-mark">©2020Lasles<span>VPN</span></div>
+				<div class="footer__container_water-mark">©2020 Lasles<span>VPN</span></div>
 				<div class="footer__container_social-networks">
 					<a href="#" class="footer__container_social-networks_facebook">
 						<img src="images/facebook.svg" alt="">
@@ -241,3 +266,11 @@
 	</footer>
 </body>
 </html>
+<script>
+    function showNav() {
+        document.getElementById("burgermenu").classList.toggle("active");
+    }
+    function closeNav() {
+        document.getElementById("burgermenu").classList.toggle("active");
+    }
+</script>
