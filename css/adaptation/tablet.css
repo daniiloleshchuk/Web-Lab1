@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .container{
+        max-width: 750px;
+        padding: 0 60px;
+    }
+
+    .header .background-header{
+        background: none;
+    }
+
+    header .navbar__nav{
+        display: none;
+    }
+
+    .features .container{
+        display: block;
+
+        height: auto;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .features_img img{
+        margin-bottom: 100px;
+        width: 100%;
+    }
+
+    .customers{
+        height: auto;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .customers__text span{
+        text-align: left;
+    }
+
+    .customers__reviews{
+        display: block;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .customers__reviews_item{
+        width: 100%;
+        margin: 0 0 50px 0;
+    }
+
+    .customers__reviews_item:last-child{
+        margin-bottom: 0;
+    }
+
+    .customers__subscribe-now-container{
+        display: none;
+    }
+}
